@@ -11,7 +11,7 @@ name: Docker Publish
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   IMAGE_NAME: "buyfakett/inter_cloud_server"
