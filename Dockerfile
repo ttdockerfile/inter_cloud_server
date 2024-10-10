@@ -1,7 +1,7 @@
 FROM debian:12
 ARG NOVNC_VERSION="v1.2.0"
 ARG NOVNC_PASSWORD="password"
-COPY scripts/luo.sh /luo.sh
+COPY scripts/run.sh /run.sh
 RUN apt update && \
 DEBIAN_FRONTEND= \
 noninteractive apt install qemu-kvm *zenhei* xz-utils dbus-x11 curl firefox-esr gnome-system-monitor mate-system-monitor \
