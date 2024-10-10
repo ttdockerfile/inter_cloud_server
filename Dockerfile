@@ -15,6 +15,6 @@ chmod 600 $HOME/.vnc/passwd && \
 chmod 755 /run.sh && \
 curl -LO https://proot.gitlab.io/proot/bin/proot && \
 mv proot /bin && \
-chmod 755 /bin/proot && \
+chmod 755 /bin/proot
 EXPOSE 8900
 CMD  /run.sh
